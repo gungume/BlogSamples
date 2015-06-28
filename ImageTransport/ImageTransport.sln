@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csproj", "{1CA236C6-E38C-4A8D-8375-8C71F0AA17B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{13F22C9E-9446-4EA5-9213-A04D5E27DDF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CA236C6-E38C-4A8D-8375-8C71F0AA17B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA236C6-E38C-4A8D-8375-8C71F0AA17B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA236C6-E38C-4A8D-8375-8C71F0AA17B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA236C6-E38C-4A8D-8375-8C71F0AA17B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F22C9E-9446-4EA5-9213-A04D5E27DDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F22C9E-9446-4EA5-9213-A04D5E27DDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F22C9E-9446-4EA5-9213-A04D5E27DDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F22C9E-9446-4EA5-9213-A04D5E27DDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
