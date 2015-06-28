@@ -88,8 +88,8 @@ END
 IDD_GAME_DIALOG DIALOGEX 0, 0, 287, 344
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_APPWINDOW
-CAPTION "Â¦Åü ¶ËÇÇÇÏ±â(½ÃÀÛ = Enter | Á¾·á = Esc)"
-FONT 9, "±¼¸²"
+CAPTION "Â¦Åü ¶ËÇÇÇÏ±â"
+FONT 9, "±¼¸²", 0, 0, 0x1
 BEGIN
 END
 
@@ -115,17 +115,20 @@ VS_VERSION_INFO VERSIONINFO
 BEGIN
     BLOCK "StringFileInfo"
     BEGIN
-        BLOCK "041204B0"
+        BLOCK "041204b0"
         BEGIN
+            VALUE "Comments", "\0"
             VALUE "CompanyName", "\0"
-            VALUE "FileDescription", "game MFC ÀÀ¿ë ÇÁ·Î±×·¥\0"
+            VALUE "FileDescription", "Â¦Åü ¶ËÇÇÇÏ±â\0"
             VALUE "FileVersion", "1, 0, 0, 1\0"
-            VALUE "InternalName", "game\0"
+            VALUE "InternalName", "Â¦Åü ¶ËÇÇÇÏ±â\0"
             VALUE "LegalCopyright", "Copyright (C) 2005\0"
             VALUE "LegalTrademarks", "\0"
             VALUE "OriginalFilename", "game.EXE\0"
-            VALUE "ProductName", "game ÀÀ¿ë ÇÁ·Î±×·¥\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Â¦Åü ¶ËÇÇÇÏ±â\0"
             VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
         END
     END
     BLOCK "VarFileInfo"
@@ -166,12 +169,19 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
+// WAVE
+//
+
+IDR_WAVE_BG             WAVE    DISCARDABLE     "tet.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
 // String Table
 //
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_ABOUTBOX            "game Á¤º¸(&A)..."
+    IDS_ABOUTBOX            "Â¦Åü ¶ËÇÇÇÏ±â Á¤º¸(&A)..."
 END
 
 #endif    // Korean resources

@@ -41,7 +41,7 @@ CGameApp theApp;
 
 BOOL CGameApp::InitInstance()
 {
-	SetDialogBkColor(RGB(255, 255, 255), RGB(0, 0, 255));
+	SetDialogBkColor(RGB(255, 255, 255), RGB(0, 0, 0));
 
 	AfxEnableControlContainer();
 

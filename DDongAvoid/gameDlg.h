@@ -1,5 +1,6 @@
 // gameDlg.h : header file
 //
+#include <mmsystem.h>
 
 #if !defined(AFX_GAMEDLG_H__415FF11C_0BD7_4DBD_B9D3_869F65A14A6C__INCLUDED_)
 #define AFX_GAMEDLG_H__415FF11C_0BD7_4DBD_B9D3_869F65A14A6C__INCLUDED_
@@ -15,6 +16,12 @@ class CGameDlg : public CDialog
 {
 // Construction
 public:
+	void SetMusicVolume(double fPercent);
+	double m_fVolume;
+	int m_nStage;
+	CString m_strStage;
+	int m_nNum;
+	
 	CString m_strScore;
 	CString m_strCnt;
 	void KeyDown(MSG pMsg);
@@ -30,6 +37,10 @@ public:
 	int m_nSpd2[20]; // 두번재 별표 속도
 
 	int m_nCnt; // 점수
+
+	// for문 제어
+	int m_nCnt3;
+	int m_nCnt2;
 	CGameDlg(CWnd* pParent = NULL);	// standard constructor
 
 // Dialog Data
@@ -56,6 +67,8 @@ protected:
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
 	afx_msg void OnTimer(UINT nIDEvent);
+	afx_msg void OnClose();
+	afx_msg void OnDestroy();
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 };
