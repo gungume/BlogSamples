@@ -1,4 +1,4 @@
 # BlogSamples
 Blog Samples
 
-[http://gungume.com/](http://gungume.com/)
+[http://gungume.tistory.com/](http://gungume.tistory.com/)
